@@ -27,8 +27,14 @@ for (i=0; i<=100; i++) {
         console.log('Fizz')
     } else if (i % 5 === 0) {
         console.log('Buzz')
-    } else {console.log(i)}
-}
+    } else console.log(i)
+};
+
+for (i=0; i<=100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log('FizzBuzz')
+    } else console.log(i)
+};
 
 // Напишите скрипт, который считает количество секунд в часе.
 console.log(60*60)
